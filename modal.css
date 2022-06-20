@@ -1,0 +1,63 @@
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  
+  .btn:hover{
+    background-color: lightgreen;
+  }
+  
+  .btn:active{
+    background-color: aliceblue ;
+    color: black;
+  }
+  
+  .modal{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+  }
+  
+  .modal-content{
+    margin: 0 auto;
+    margin-top: 5%;
+    max-width: 600px;
+    background-color: lightgray;
+    box-shadow: 0 0 2px #ffff;
+    padding: 0;
+  }
+  
+  .modal-head, .modal-body, .modal-footer{
+    padding: 10px;
+  }
+  
+  .modal-head, .modal-footer{
+    background-color: rgb(168, 165, 165);
+  }
+  
+  .modal-head h1{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .modal-body{
+    padding-left: 75px;
+  }
+
+  .img{
+    text-align: center;
+    }
+  #user{
+    border-radius: 100px;
+    width: 130px;
+  }
